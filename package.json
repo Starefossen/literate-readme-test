@@ -1,0 +1,33 @@
+{
+  "name": "literate-readme-test",
+  "version": "1.0.0",
+  "description": "Just a test project to check out if or how a literate README file would work",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -b -c --check-leaks README.litcoffee -R progress --compilers coffee:coffee-script/register -w"
+  },
+  "engines": {
+    "node": ">= 0.1.0"
+  },
+  "devDependencies": {
+    "coffee-script": "1.7.1",
+    "mocha": "1.18.2",
+    "should": "3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Turistforeningen/literate-readme-test.git"
+  },
+  "keywords": [
+    "hiking",
+    "trekking",
+    "api",
+    "user",
+    "membership"
+  ],
+  "author": "Hans Kristian Flaatten <hans.kristian.flaatten@turistforeningen.no>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Turistforeningen/literate-readme-test/issues"
+  },
+  "homepage": "https://github.com/Turistforeningen/literate-readme-test"
+}
