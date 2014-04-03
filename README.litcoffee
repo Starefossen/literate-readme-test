@@ -1,4 +1,4 @@
-    some = null
+    some = null; o = it
 
 Literate README
 ===============
@@ -20,22 +20,22 @@ npm install literate-readme-test
 
 ## Some class
 
-      it 'new Some() should create a new Some instance', ->
+      o 'new Some() should create a new Some instance', ->
         some = new Some 100, 25
 
 ### some.getFoo()
 
-      it 'getFoo() should return foo', ->
+      o 'getFoo() should return foo', ->
         some.getFoo().should.equal 100
 
 ### some.getBar()
 
-      it 'getBar() should return bar', ->
+      o 'getBar() should return bar', ->
         some.getBar().should.equal 25
 
 ### some.sqrt(`number` foo)
 
-      it 'sqrt() should return the square root of this.foo', ->
+      o 'sqrt() should return the square root of this.foo', ->
         some.sqrt().should.equal 10
 
 # License
